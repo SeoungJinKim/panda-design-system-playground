@@ -1,6 +1,4 @@
-import { PropsWithChildren } from 'react'
-
-import { css, cva, type RecipeVariantProps } from '@seongjin/styled-system/css'
+import { cva } from '@seongjin/styled-system/css'
 import { styled } from '@seongjin/styled-system/jsx'
 
 const button = cva({
@@ -76,9 +74,9 @@ const button = cva({
   ],
 })
 
-export type ButtonVariants = RecipeVariantProps<typeof button>
+// export type ButtonVariants = RecipeVariantProps<typeof button>
 
-interface Props extends PropsWithChildren {}
+// interface Props extends PropsWithChildren {}
 
 // const Button = ({ children }: Props) => {
 //   return (
