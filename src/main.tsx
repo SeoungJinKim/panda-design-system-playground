@@ -5,6 +5,8 @@ import { Button } from './lib'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Button>Test </Button>
+    <Button size='medium' color='primary'>
+      Test
+    </Button>
   </React.StrictMode>
 )

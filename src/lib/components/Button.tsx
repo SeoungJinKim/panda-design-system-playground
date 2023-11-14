@@ -93,4 +93,4 @@ interface Props extends PropsWithChildren {}
 
 export const Button = styled('button', button)
 
-// export default Button
+export default Button
